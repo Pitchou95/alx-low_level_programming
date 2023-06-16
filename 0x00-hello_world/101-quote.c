@@ -1,4 +1,3 @@
-
 #include <unistd.h>
 /**
  * main - 101-qoute.c
