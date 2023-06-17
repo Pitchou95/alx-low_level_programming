@@ -1,2 +1,1 @@
-
-this project has 10 mandatory tasks and 3 advanced Tasks
+0x01 c variable, if, while
