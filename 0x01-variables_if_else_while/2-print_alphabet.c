@@ -4,15 +4,16 @@
 
 /**
  * main - prints the alphabetic
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	char c;
+    char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-	putchar('\n');
-	return(0);
+    for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
+
+    putchar('\n');
+    return (0);
 }
+
