@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper - Check if a letter is upper
  * @c: variable text
@@ -16,5 +15,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-
 }
