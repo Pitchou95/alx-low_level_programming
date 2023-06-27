@@ -26,7 +26,7 @@ int _atoi(char *s)
         return (ni);
     }
     
-    // Add a return statement here (e.g., return 0) to handle the case when the input string is empty or doesn't contain any valid integer.
+    /* Add a return statement here (e.g., return 0) to handle the case when the input string is empty or doesn't contain any valid integer. */
     return 0;
 }
 
