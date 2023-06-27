@@ -1,7 +1,6 @@
 #include "main.h"
- 
-/* Convert a string to an integer */
 
+/* Convert a string to an integer */
 int _atoi(char *s)
 {
     int c = 0;
@@ -29,6 +28,7 @@ int _atoi(char *s)
         ni *= min;
         return ni;
     }
-    
+
     return 0;
 }
+
