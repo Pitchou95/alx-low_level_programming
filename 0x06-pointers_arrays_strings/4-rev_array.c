@@ -1,9 +1,13 @@
 #include "main.h"
+
 /**
- * reverse_array
- * Return:void
+ * reverse_array - Reverses the elements of an array
+ * @a: Pointer to the array
+ * @n: Number of elements in the array
+ *
+ * Return: void
  */
-void reverse_array(int * a, int n)
+void reverse_array(int *a, int n)
 {
 	int i;
 	int t;
@@ -15,3 +19,4 @@ void reverse_array(int * a, int n)
 		a[n] = t;
 	}
 }
+
