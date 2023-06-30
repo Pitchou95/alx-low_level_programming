@@ -1,30 +1,28 @@
 /**
- * _strncat - concatenates two strings up to n characters
- * @dest: destination string
- * @src: source string
- * @n: maximum number of characters to concatenate
+ * _strncat - Concatenates two strings up to n characters
+ * @dest: Destination string
+ * @src: Source string
+ * @n: Maximum number of characters to concatenate
  *
- * Return: pointer to the resulting string (dest)
+ * Return: Pointer to the resulting string (dest)
  */
 char *_strncat(char *dest, char *src, int n)
 {
-    int i = 0;
-    int j = 0;
+	int i = 0;
+	int j = 0;
 
-    while (dest[i] != '\0')
-    {
-        i++;
-    }
+	while (dest[i] != '\0')
+		i++;
 
-    while (j < n && src[j] != '\0')
-    {
-        dest[i] = src[j];
-        i++;
-        j++;
-    }
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
 
-    dest[i] = '\0';
+	dest[i] = '\0';
 
-    return dest;
+	return dest;
 }
 
