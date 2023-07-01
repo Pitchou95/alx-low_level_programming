@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_nuber
- * Return: 0
+ * print_number - Prints an integer to the console.
+ * @n: The integer to be printed.
  */
 
 void print_number(int n)
@@ -15,9 +15,10 @@ void print_number(int n)
 		_putchar('-');
 		n1 = -n;
 	}
-	if (N1 / 10 != 0)
+	if (n1 / 10 != 0)
 	{
 		print_number(n1 / 10);
 	}
 	_putchar((n1 % 10) + '0');
 }
+
